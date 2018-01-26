@@ -1,3 +1,6 @@
 # PSAM_1028
 ###
-for web design basics assignments 
+a place for web design basics assignments 
+#### Toni Marie Conliffe
+#### Global Studies major
+#### freshman @ Lang
