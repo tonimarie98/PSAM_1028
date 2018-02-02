@@ -52,3 +52,35 @@ undefined
 myAge + secondsINAYear
 31536019
 ```
+even more thingzz
+
+``` ruby
+// incrementing up or down
+undefined
+var clouds = 199
+undefined
+clouds = coulds + 1
+VM925:1 Uncaught ReferenceError: coulds is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM925:1
+clouds = clouds = 1
+1
+var dogs = 666
+undefined
+dogs = dogs +1
+667
+++dogs
+668
+++----dogs
+VM1029:1 Uncaught ReferenceError: Invalid left-hand side expression in prefix operation
+- dogs
+-668
+clouds = null
+null
+clouds
+null
+clouds +1
+1
+clouds - 2
+-2
+```
