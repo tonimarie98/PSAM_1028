@@ -1,1 +1,30 @@
-
+// dog's name
+undefined
+var firstName = "Waverly"
+undefined
+var middleName = "Shadow"
+undefined
+var lastName = "Tate"
+undefined
+var fullName = firstName + middleName + lastName
+undefined
+fulname
+VM1282:1 Uncaught ReferenceError: fulname is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1282:1
+fullName
+"WaverlyShadowTate"
+var firstLetter = "W"
+undefined
+var firstLetter = firstName.slice(0,1)
+undefined
+var middleLetter = middleName.slice(0,1)
+undefined
+var lastLetter = lastName.slice(0,1)
+undefined
+monogram
+VM1404:1 Uncaught ReferenceError: monogram is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1404:1
+monogram = firstLetter + middleLetter +lastLetter
+"WST"
