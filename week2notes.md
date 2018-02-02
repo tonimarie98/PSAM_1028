@@ -1,5 +1,5 @@
 this is my code snippet:
-```rudy
+```ruby
 var firstName = "Toni Marie"
 undefined
 var lastName = "Conliffe"
@@ -24,7 +24,7 @@ monogram = firstLetter + lastLetter
 "TC"
 ```
 more thingzzz
-```rudy
+```ruby
 secondsINAMinute = 60
 60
 var secondsInAMinute = 60
