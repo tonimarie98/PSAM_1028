@@ -22,9 +22,5 @@ var middleLetter = middleName.slice(0,1)
 undefined
 var lastLetter = lastName.slice(0,1)
 undefined
-monogram
-VM1404:1 Uncaught ReferenceError: monogram is not defined
-    at <anonymous>:1:1
-(anonymous) @ VM1404:1
 monogram = firstLetter + middleLetter +lastLetter
 "WST"
