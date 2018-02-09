@@ -10,3 +10,19 @@ VM281:1 Uncaught ReferenceError: color is not defined
 (anonymous) @ VM281:1
 colorArray
 (4) ["Yellow", "Red", "Green", "Blue"]
+////
+Math.random()
+0.5255085507236557
+Math.random()
+
+0.5239379475371835
+Math.random()
+
+0.6747354647052162
+Math.random() * 10
+
+2.549209015257623
+Math.random() * 10
+1.2615339991917596
+Math.random() * 100
+64.77560651613847
