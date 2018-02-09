@@ -1,0 +1,11 @@
+ Toni Marie's Romance Movie
+undefined
+var RomanticWhereuMet = ["since birth", "high school", "summer camp", "college", "old friends", "through friends", "blind date", "tinder", "coffee shop", "work", "bar"]
+undefined
+var RomanticHoneymoon = ["Mexico", "BoraBora", "Bali", "California", "France", "London", "Scotland", "Italy", "Greece", "Bahamas"]
+
+undefined
+var HowManyKidsuHave = ["0", "1", "2", "3", "4", "5", "6", "1dog", "2dogs", "1dogncat"]
+undefined
+var randomRomanticWhereuMet = RomanticWhereuMet[Math.floor(Math.random()) * RomanticWhereuMet.length]
+undefined
