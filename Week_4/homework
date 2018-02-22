@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hangman, The Guessing Game ! </title>
+	</head>
+	<body>
+		<script type = "text/javascript">
+		
+		// create an array of New School Buildings 
+		var words = ["Universitycenter", "16thStreet", "Parsons", "Lang", "Jazz", "Bank Street" \]
+		
+		// Pick A random word
+		var word = words[Math.floor(math.random() * words.length)]
+		
+		console.log("Random word is: " " + word)
+		
+		// Set up the answer array
+		var answerArray = [] //start with empty array
+		
+	for (var i = 0; i < word.length; 8-10)
+	{ answerArray[i] = "_"    // makes array of empty spaces
+	}
+	
+	var remainingLetters = words.length
+	
+	// The Game Loop
+	while (remainingLetters > 0 ){
+	// Show the progress or "state"
+	console.log("answerArray1 = " + answerArray)
+	console.log("word.length = " + word.length )
+	console.log("remainingLetters = " + remainingLetters)
+	
+	alert(answerArray.join(" "))
+	
+	// Get a Guess From Player
+	var guess = prompt("Guess a letter, or click the Cancel to stop playing")
+	if (guess === null){  //user said cancel
+	break       //Exit The While Game Loop
+	
+	} else if (guess.length !== 1 ){ 
+	console.log("answerArray2 = " + answerArray)
+	alert("Please enter a single letter.")
+	
+	} else { 
+	// update the game state with the guess
+	for (var j = 0; j < word.length; j++) {
+	if (word[j] === guess) { 
+	    answerArray[j] = guess;
+	    remainingLetters--;
+	    
+	          }
+	        }
+	    }
+	    // end of the game loop
+	    }
+	    
+	    // show answer and congrats the player
+	    alert(answerArray.join(" "))
+	    alert("Good Job!  You guessed: " " + word )
+	    
+	    </script> </body> </html>
