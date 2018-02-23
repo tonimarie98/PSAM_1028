@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> the most common html tags in use </title>
+</head>
+
+<body> 
+
+<p> hello, this is my frst html page : )  </p>
+
+<h1> This Biggest Heading Heading </h1>
+<h2> This is the second Biggest Heading Heading </h2>
+<h3> This is the third Biggest Heading Heading </h3>
+<h4> This is the fourth Biggest Heading Heading </h4>
+
+<p> let's see heading in action </p>
+<p> -------------------------- </p>
+<p> ---- heading n p tags in action ---- </p>
+<p> ---------------------------- </p>
+
+
+<h1> the crushing bore </h1>
+<p> by chris mills </p>
+<h2> chapter 1: tue dark knight </h2>
+<p> it was a dark and stormy night. an owl hooted. the rain lashed down on the tin roof of andy's small hut. </p>
+
+<p> ------------------ </p>
+<p> --- hyperlinks ---- </p>
+<p> -------------------- </p>
+
+<a href="http://b.parsons.edu/~conlt229/"> this link is to my directory lol</a>
+<br>
+<a href="http://b.parsons.edu/~conlt229/"> this link is to my directory lol</a>
+<br> 
+<a href="http://b.parsons.edu/~conlt229/"> this link is to my directory lol</a>
+
+
+
+
+<p> -------------- </p>
+<p> --------------- </p>
+<p> --- image tag ----- </p>
+<p> --------------------- </p>
+
+<img src="https://github.com/tonimarie98/PSAM_1028/blob/master/Screen%20Shot%202018-01-25%20at%209.09.09%20PM.png?raw=true">
+
+
+<img src="https://github.com/tonimarie98/PSAM_1028/blob/master/Screen%20Shot%202018-01-25%20at%209.09.09%20PM.png?raw=true" width="120" alt="text that prints if image doesnt load, for usablility">
+
+
+<body/>
+<html/>
