@@ -1,0 +1,50 @@
+// functions
+// most basic function
+// function declaration/definition
+
+var ourFirstFunction = function(){
+
+console.log("Hello world")
+
+} 
+
+//call function
+
+ourFirstFunction
+
+//
+
+
+
+var sayHello = function(){
+ console.log("hello" + "you")
+
+
+}
+
+//arguement in function
+
+var sayHello = function(username){
+	console.log("hello" + "username")
+}
+
+sayHello("TM")
+
+
+// or
+
+var sayHello = function(){
+    var username = "TM" 
+    console.log("Hello" + username ) }
+
+
+
+
+ var drawCats = function(howManyTimes){
+ for (var i = 0; i < howManyTimes; i++)
+ {
+
+console.log(i + "=^.^=")
+
+ }
+ }
