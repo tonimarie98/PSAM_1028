@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feed the Snake </title>
+</head>
+<style>
+body
+{
+    background:#000;
+    color:#FFF;
+}
+canvas
+{
+    background:#FFF;
+}
+#controls
+{
+    position:absolute;
+    top:0;
+    right:0;
+    margin:10px;
+}
+</style>
+
+<body>
+<canvas width="400" height="400" id="game"></canvas>
+<body
+ctx.fillStyle = "Aqua"
+ctx.font = "18px Arial";
+ctx.fillText("score 100", 320, 20);
+
+ctx.fillStyle = "Aqua"
+ctx.font = "18px Arial";
+ctx.fillText("By Toni Marie", 290, 390);
+ <body>
+  <div class= 'game'>
+  <div id = 'home'>
+    <canvas id='mycanvas' width='350' height='350'>
+    </canvas>
+    </div>
+    <p>Press start to play TM's snake!</p>
+    <button id='btn'>START</button>
+  </div>
+
+<script type="text/javascript">
+var snake = window.snake || {};
+function launchFullscreen(element) {
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if(element.webkitRequestFullscreen) {
+    element.webkitRequestFullscreen();
+  } else if(element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+  }
+}
+window.onload = function(){
+    document.addEventListener("fullscreenchange", function(){snake.game.adjust();});
+    document.addEventListener("webkitfullscreenchange", function(){snake.game.adjust();});
+    document.addEventListener("mozfullscreenchange", function(){snake.game.adjust();});
+    document.addEventListener("MSFullscreenChange", function(){snake.game.adjust();});
+
+    snake.game = (function()
+    {
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var status=false;
+        var score = 0;
+        var old_direction = 'right';
+        var direction = 'right';
+        var block = 10;
+        var score = 0;
+        var refresh_rate = 250;
+        var pos = [[5,1],[4,1],[3,1],[2,1],[1,1]];
+        var scoreboard = document.getElementById('scoreboard');
+        var control = document.getElementById('controls');
+        var keys = {
+            37 : 'left',
+            38 : 'up',
+            39 : 'right',
+            40 : 'down'
+            };
+        function adjust()
+        {
+            if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement )
+            {
+                canvas.width=window.innerWidth;
+                canvas.height=window.innerHeight;
+                control.style.display='none';
+            }
+            else
+            {
+                canvas.width=850;
+                canvas.height=600;
+                control.style.display='inline';
+            }
+        }
+
+{
+            ctx.fillStyle='#000000';
+            ctx.fillRect(0,0,canvas.width,canvas.height);
+            ctx.fillStyle='#ffffff';
+            ctx.font='40px helvatica';
+            ctx.fillText('Toni Marie',370,140);
+            ctx.font='20px san-serif';
+            ctx.fillText('presents',395,190);
+            ctx.font='italic 60px san-serif';
+            ctx.fillText('Feed The Snake',240,280);
+            var img = new Image();
+            img.onload = function()
+            {
+                ctx.drawImage(img,300,300,200,200);
+                ctx.fillRect(410,330,10,10);
+            }
+            img.src ='snake.png';
+        }
+        function fullscreen()
+        {
+            launchFullscreen(canvas);
+        }
+
+
+
+</script>
+body>
+<canvas width="850" height="600" id="canvas" style="border:1px solid #333;" onclick="snake.game.begin();">
+</canvas>
+<div id="controls" style="float:right; text-align:center;">
+    <input type="button" id="pause" value="Play" onClick="snake.game.pause(this);" accesskey="p">
+    <input type="button" id="restart" value="Restart" onClick="snake.game.restart();">
+    <br/><br/>
+    <input type="button" id="fullscreen" value="Play Fullscreen" onClick="snake.game.fullscreen();">
+    <br/><br/>
+    <div style="font-size:24px;">
+    Score : 
+    <span id="scoreboard">0</span>
+    </div>
+</div>
+</body>
+
+
+
+
+</html>
